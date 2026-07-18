@@ -51,6 +51,12 @@
             //     Console.WriteLine("Done");
             // }
             // #endregion
+
+            // #region Question 05
+            // int pages = 300;
+            // double pagesAsDouble = pages; // Implicit conversion from int to double
+            // Console.WriteLine($"Pages as double: {pagesAsDouble}");
+            // #endregion
         }
 
     }
