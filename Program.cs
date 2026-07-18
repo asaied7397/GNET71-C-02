@@ -99,6 +99,13 @@
             // Console.WriteLine($"Boxed value: {boxedCopies}");
             // Console.WriteLine($"Unboxed value: {unboxedCopies}");
             // #endregion
+
+            // #region Question 11
+            // int? years = null;
+            // Console.WriteLine($"Years has value: {years.HasValue}");
+            // years = 2026;
+            // Console.WriteLine($"Years has value: {years.HasValue}, Value: {years.Value}");
+            // #endregion
         }
 
     }
