@@ -106,6 +106,11 @@
             // years = 2026;
             // Console.WriteLine($"Years has value: {years.HasValue}, Value: {years.Value}");
             // #endregion
+
+            // #region Question 12
+            // string? reviewer = null;
+            // Console.WriteLine($"Reviewer has value: {reviewer is not null}");
+            // #endregion
         }
 
     }
