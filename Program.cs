@@ -27,6 +27,12 @@
             // Console.WriteLine($"GetType(): {secondBook.GetType()}");
             // #endregion
 
+            // #region Question 03
+            // * Incorrect code:
+            // * int pages = "464";
+            // * This is a compile-time error because a string cannot be
+            // * assigned directly to an int variable.
+            // #endregion
         }
 
     }
