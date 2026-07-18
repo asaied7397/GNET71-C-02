@@ -126,7 +126,11 @@
             // Console.WriteLine($"Title after ??=: {title}");
             // #endregion
 
-
+            // #region Question 15
+            // string? name = "Ahmed";
+            // string confirmedName = name!;
+            // Console.WriteLine($"Confirmed name: {confirmedName}");
+            // #endregion
         }
 
     }
