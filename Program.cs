@@ -58,11 +58,17 @@
             // Console.WriteLine($"Pages as double: {pagesAsDouble}");
             // #endregion
 
-            #region Question 06
-            double price = 19.99;
-            int priceAsInt = (int)price; // Explicit conversion from double to int
-            Console.WriteLine($"Price as int: {priceAsInt}");
-            #endregion
+            // #region Question 06
+            // double price = 19.99;
+            // int priceAsInt = (int)price; // Explicit conversion from double to int
+            // Console.WriteLine($"Price as int: {priceAsInt}");
+            // #endregion
+
+            // #region Question 07
+            // string pagesText = "464";
+            // int pagesAsInt = Convert.ToInt32(pagesText); // Convert string to int
+            // Console.WriteLine($"Pages as int: {pagesAsInt}");
+            // #endregion
         }
 
     }
