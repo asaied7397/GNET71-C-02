@@ -13,6 +13,20 @@
             // Console.WriteLine("Question 01:");
             // Console.WriteLine(firstBook.ToString());
             // #endregion
+
+            // #region Question 02
+            // Book secondBook = new Book
+            // {
+            //     Title = "Clean Code",
+            //     Pages = 464
+            // };
+            // Console.WriteLine("Question 02:");
+            // Console.WriteLine($"ToString(): {secondBook.ToString()}");
+            // Console.WriteLine($"Equals itself: {secondBook.Equals(secondBook)}");
+            // Console.WriteLine($"GetHashCode(): {secondBook.GetHashCode()}");
+            // Console.WriteLine($"GetType(): {secondBook.GetType()}");
+            // #endregion
+
         }
 
     }
