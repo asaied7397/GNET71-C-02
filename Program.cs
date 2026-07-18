@@ -69,6 +69,22 @@
             // int pagesAsInt = Convert.ToInt32(pagesText); // Convert string to int
             // Console.WriteLine($"Pages as int: {pagesAsInt}");
             // #endregion
+
+            // #region Question 08
+            // string yearText = "2026";
+            // int yearAsInt = int.Parse(yearText); // Parse string to int
+            // Console.WriteLine($"Year as int: {yearAsInt}");
+            // string badText = "NotANumber";
+            // bool conversionResult = int.TryParse(badText, out int conversionValue); // TryParse returns false if conversion fails
+            // if (conversionResult)
+            // {
+            //     Console.WriteLine($"Conversion succeeded: {conversionValue}");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Invalid input, conversion failed.");
+            // }
+            // #endregion
         }
 
     }
