@@ -33,6 +33,24 @@
             // * This is a compile-time error because a string cannot be
             // * assigned directly to an int variable.
             // #endregion
+
+            // #region Question 04
+            // try
+            // {
+            //     int firstNumber = 10;
+            //     int secondNumber = 0;
+            //     int result = firstNumber / secondNumber;
+            //     Console.WriteLine(result);
+            // }
+            // catch (DivideByZeroException)
+            // {
+            //     Console.WriteLine("Cannot divide by zero");
+            // }
+            // finally
+            // {
+            //     Console.WriteLine("Done");
+            // }
+            // #endregion
         }
 
     }
