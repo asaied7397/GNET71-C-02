@@ -85,6 +85,12 @@
             //     Console.WriteLine("Invalid input, conversion failed.");
             // }
             // #endregion
+
+            #region Question 09
+            int pages = 464;
+            string pagesAsString = pages.ToString(); // Convert int to string
+            Console.WriteLine($"Pages type: {pagesAsString.GetType()}");
+            #endregion
         }
 
     }
