@@ -111,6 +111,12 @@
             // string? reviewer = null;
             // Console.WriteLine($"Reviewer has value: {reviewer is not null}");
             // #endregion
+
+            // #region Question 13
+            // Book? nullableBook = null;
+            // string? nullableTitle = nullableBook?.Title;
+            // Console.WriteLine($"Book title: {nullableTitle}");
+            // #endregion
         }
 
     }
