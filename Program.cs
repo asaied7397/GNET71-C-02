@@ -117,6 +117,16 @@
             // string? nullableTitle = nullableBook?.Title;
             // Console.WriteLine($"Book title: {nullableTitle}");
             // #endregion
+
+            // #region Question 14
+            // string? nullableTitle = null;
+            // string? title = nullableTitle;
+            // Console.WriteLine(title ?? "Untitled");
+            // title ??= "Untitled";
+            // Console.WriteLine($"Title after ??=: {title}");
+            // #endregion
+
+
         }
 
     }
