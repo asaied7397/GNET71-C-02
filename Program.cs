@@ -57,6 +57,12 @@
             // double pagesAsDouble = pages; // Implicit conversion from int to double
             // Console.WriteLine($"Pages as double: {pagesAsDouble}");
             // #endregion
+
+            #region Question 06
+            double price = 19.99;
+            int priceAsInt = (int)price; // Explicit conversion from double to int
+            Console.WriteLine($"Price as int: {priceAsInt}");
+            #endregion
         }
 
     }
