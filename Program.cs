@@ -91,6 +91,14 @@
             // string pagesAsString = pages.ToString(); // Convert int to string
             // Console.WriteLine($"Pages type: {pagesAsString.GetType()}");
             // #endregion
+
+            // #region Question 10
+            // int copies = 100;
+            // object boxedCopies = copies;
+            // int unboxedCopies = (int)boxedCopies;
+            // Console.WriteLine($"Boxed value: {boxedCopies}");
+            // Console.WriteLine($"Unboxed value: {unboxedCopies}");
+            // #endregion
         }
 
     }
